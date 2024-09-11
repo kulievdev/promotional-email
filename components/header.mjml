@@ -1,0 +1,12 @@
+<mj-section padding="0">
+    <mj-column>
+        <mj-image
+            align="left"
+            padding="0"
+            width="132px"
+            alt="amazon logo with text"
+            src="./assets/logo-white.jpg"
+            href="https://www.amazon.com/"
+        />
+    </mj-column>
+</mj-section>

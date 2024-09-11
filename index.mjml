@@ -5,18 +5,7 @@
     </mj-head>
     <mj-body background-color="#fff">
         <!-- Header Logo Section -->
-        <mj-section padding="0">
-            <mj-column>
-                <mj-image
-                    align="left"
-                    padding="0"
-                    width="132px"
-                    alt="amazon logo with text"
-                    src="./assets/logo-white.jpg"
-                    href="https://www.amazon.com/"
-                />
-            </mj-column>
-        </mj-section>
+        <mj-include path="./components/header.mjml" />
         <!-- Header Image Section -->
         <mj-section padding="0">
             <mj-column>
@@ -556,6 +545,7 @@
                     </mj-column>
                 </mj-group>
             </mj-section>
+            <!-- Footer Section -->
         </mj-wrapper>
     </mj-body>
 </mjml>
