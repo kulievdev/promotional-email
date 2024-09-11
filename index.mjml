@@ -76,17 +76,12 @@
                     >
                 </mj-column>
             </mj-section>
-            <mj-section
-                background-color="#fff"
-                border-radius="0 0 5px 5px"
-                padding="0 14px"
-            >
+            <mj-section background-color="#fff" padding="0 14px">
                 <mj-group>
-                    <mj-column>
+                    <mj-column width="49.25%">
                         <mj-image
                             padding="0"
                             border-radius="5px"
-                            padding-right="4px"
                             alt="beauty product"
                             src="./assets/beauty.jpg"
                             href="https://www.amazon.com/b?node=121469834011&ref_=pe_125443100_1041846070_CG0600IMG_nas"
@@ -99,11 +94,13 @@
                             >Beauty</mj-text
                         >
                     </mj-column>
-                    <mj-column>
+                    <mj-column width="1.5%">
+                        <!-- This empty column is the gap -->
+                    </mj-column>
+                    <mj-column width="49.25%">
                         <mj-image
                             padding="0"
                             border-radius="5px"
-                            padding-left="4px"
                             alt="bags and backpacks"
                             src="./assets/bag.jpg"
                             href="https://www.amazon.com/b?node=121469850011&ref_=pe_125443100_1041846070_CG0601IMG_nas"
@@ -124,11 +121,10 @@
                 padding="0 14px"
             >
                 <mj-group>
-                    <mj-column>
+                    <mj-column width="49.25%">
                         <mj-image
                             padding="0"
                             border-radius="5px"
-                            padding-right="4px"
                             alt="dorm product"
                             src="./assets/dorm.jpg"
                             href="https://www.amazon.com/b?node=121469840011&ref_=pe_125443100_1041846070_CG0602IMG_nas"
@@ -141,11 +137,13 @@
                             >Dorm Essentials</mj-text
                         >
                     </mj-column>
-                    <mj-column>
+                    <mj-column width="1.5%">
+                        <!-- This empty column is the gap -->
+                    </mj-column>
+                    <mj-column width="49.25%">
                         <mj-image
                             padding="0"
                             border-radius="5px"
-                            padding-left="4px"
                             alt="groceries"
                             src="./assets/grocery.jpg"
                             href="https://www.amazon.com/b?node=121469854011&ref_=pe_125443100_1041846070_CG0603IMG_nas"
@@ -162,6 +160,402 @@
             </mj-section>
             <mj-include path="./components/divider.mjml" />
             <!-- College Deals Section -->
+            <mj-section
+                background-color="#fff"
+                border-radius="5px 5px 0 0"
+                padding="16px 14px"
+            >
+                <mj-column>
+                    <mj-text
+                        align="left"
+                        padding="0"
+                        font-size="18px"
+                        font-weight="bold"
+                        >College deals for you</mj-text
+                    >
+                </mj-column>
+            </mj-section>
+            <mj-section background-color="#fff" padding="0 14px">
+                <mj-group width="100%">
+                    <mj-column
+                        width="49.25%"
+                        background-color="#F8F8F8"
+                        border-radius="5px"
+                    >
+                        <mj-image
+                            width="152px"
+                            align="center"
+                            alt="containers"
+                            src="./assets/container.jpg"
+                            href="https://www.amazon.com/gp/product/B07X64Z8RM/?ref_=pe_125443100_1041846070_AG0900IMG_2p_0_lm"
+                        />
+                    </mj-column>
+
+                    <mj-column width="1.5%">
+                        <!-- This empty column is the gap -->
+                    </mj-column>
+
+                    <mj-column
+                        width="49.25%"
+                        background-color="#F8F8F8"
+                        border-radius="5px"
+                    >
+                        <mj-image
+                            width="152px"
+                            align="center"
+                            alt="hoodie"
+                            src="./assets/hoodie.jpg"
+                            href="https://www.amazon.com/gp/product/B0BVFZTZ5F/?ref_=pe_125443100_1041846070_AG0901IMG_2p_1_lm"
+                        />
+                    </mj-column>
+                </mj-group>
+            </mj-section>
+            <mj-section background-color="#fff" padding="0 14px">
+                <mj-group width="100%">
+                    <mj-column width="49.25%">
+                        <mj-button
+                            background-color="#CC0D39"
+                            inner-padding="4px 8px"
+                            font-size="11px"
+                            font-weight="500"
+                            color="#fff"
+                            align="left"
+                            padding="6px 0 12px"
+                        >
+                            Limited time deal
+                        </mj-button>
+                        <mj-text font-size="24px" padding="0 0 8px"
+                            ><span style="color: #cc0d39; font-size: 20px"
+                                >-23%</span
+                            >
+                            <sup style="font-size: 12px">$</sup>99<sup
+                                style="font-size: 12px"
+                                >99</sup
+                            ></mj-text
+                        >
+                        <mj-text
+                            font-size="12px"
+                            color="#565959"
+                            padding="0 0 12px"
+                            >List Price:
+                            <span style="text-decoration: line-through"
+                                >$129.99</span
+                            >
+                        </mj-text>
+                        <mj-text font-size="15px" padding="0 0 12px"
+                            >Rubbermaid Food Storage Containers Set
+                        </mj-text>
+                    </mj-column>
+
+                    <mj-column width="1.5%">
+                        <!-- This empty column is the gap -->
+                    </mj-column>
+
+                    <mj-column width="49.25%">
+                        <mj-button
+                            background-color="#CC0D39"
+                            inner-padding="4px 8px"
+                            font-size="11px"
+                            font-weight="500"
+                            color="#fff"
+                            align="left"
+                            padding="6px 0 12px"
+                        >
+                            Limited time deal
+                        </mj-button>
+                        <mj-text font-size="24px" padding="0 0 8px"
+                            ><span style="color: #cc0d39; font-size: 20px"
+                                >-20%</span
+                            >
+                            <sup style="font-size: 12px">$</sup>51<sup
+                                style="font-size: 12px"
+                                >16</sup
+                            ></mj-text
+                        >
+                        <mj-text
+                            font-size="12px"
+                            color="#565959"
+                            padding="0 0 12px"
+                            >Typical Price:
+                            <span style="text-decoration: line-through"
+                                >$63.95</span
+                            >
+                        </mj-text>
+                        <mj-text font-size="15px" padding="0 0 12px"
+                            >Aelfric Eden Hoodie Sweatshirt
+                        </mj-text>
+                    </mj-column>
+                </mj-group>
+            </mj-section>
+            <mj-section background-color="#fff" padding="4px 14px">
+                <mj-group width="100%">
+                    <mj-column
+                        width="49.25%"
+                        background-color="#F8F8F8"
+                        border-radius="5px"
+                    >
+                        <mj-image
+                            width="152px"
+                            align="center"
+                            alt="headphones"
+                            src="./assets/headphones.jpg"
+                            href="https://www.amazon.com/gp/product/B09WCWQD4D/?ref_=pe_125443100_1041846070_AG0902IMG_2p_2_lm"
+                        />
+                    </mj-column>
+
+                    <mj-column width="1.5%">
+                        <!-- This empty column is the gap -->
+                    </mj-column>
+
+                    <mj-column
+                        width="49.25%"
+                        background-color="#F8F8F8"
+                        border-radius="5px"
+                    >
+                        <mj-image
+                            width="152px"
+                            align="center"
+                            alt="tune headphones"
+                            src="./assets/tune.jpg"
+                            href="https://www.amazon.com/gp/product/B0CT9MB4WR/?ref_=pe_125443100_1041846070_AG0903IMG_2p_3_lm"
+                        />
+                    </mj-column>
+                </mj-group>
+            </mj-section>
+            <mj-section background-color="#fff" padding="4px 14px">
+                <mj-group width="100%">
+                    <mj-column width="49.25%">
+                        <mj-button
+                            background-color="#CC0D39"
+                            inner-padding="4px 8px"
+                            font-size="11px"
+                            font-weight="500"
+                            color="#fff"
+                            align="left"
+                            padding="6px 0 12px"
+                        >
+                            Limited time deal
+                        </mj-button>
+                        <mj-text font-size="24px" padding="0 0 8px"
+                            ><span style="color: #cc0d39; font-size: 20px"
+                                >-35%</span
+                            >
+                            <sup style="font-size: 12px">$</sup>83<sup
+                                style="font-size: 12px"
+                                >99</sup
+                            ></mj-text
+                        >
+                        <mj-text
+                            font-size="12px"
+                            color="#565959"
+                            padding="0 0 12px"
+                            >List Price:
+                            <span style="text-decoration: line-through"
+                                >$129.99</span
+                            >
+                        </mj-text>
+                        <mj-text font-size="15px" padding="0 0 12px"
+                            >PHILIPS Headphones
+                        </mj-text>
+                    </mj-column>
+
+                    <mj-column width="1.5%">
+                        <!-- This empty column is the gap -->
+                    </mj-column>
+
+                    <mj-column width="49.25%">
+                        <mj-button
+                            background-color="#CC0D39"
+                            inner-padding="4px 8px"
+                            font-size="11px"
+                            font-weight="500"
+                            color="#fff"
+                            align="left"
+                            padding="6px 0 12px"
+                        >
+                            Limited time deal
+                        </mj-button>
+                        <mj-text font-size="24px" padding="0 0 8px"
+                            ><span style="color: #cc0d39; font-size: 20px"
+                                >-20%</span
+                            >
+                            <sup style="font-size: 12px">$</sup>79<sup
+                                style="font-size: 12px"
+                                >95</sup
+                            ></mj-text
+                        >
+                        <mj-text
+                            font-size="12px"
+                            color="#565959"
+                            padding="0 0 12px"
+                            >List Price:
+                            <span style="text-decoration: line-through"
+                                >$99.95</span
+                            >
+                        </mj-text>
+                        <mj-text font-size="15px" padding="0 0 12px"
+                            >JBL TUNE
+                        </mj-text>
+                    </mj-column>
+                </mj-group>
+            </mj-section>
+            <mj-section
+                background-color="#fff"
+                padding="14px"
+                border-radius="0 0 5px 5px"
+            >
+                <mj-column>
+                    <mj-button
+                        align="left"
+                        color="#000"
+                        background-color="#FFD815"
+                        padding="0"
+                        inner-padding="10px 20px"
+                        border-radius="20px"
+                        href="https://www.amazon.com/b?node=121469839011&enabledRefinements=%5B%7B%22rid%22%3A%22p_72%22%2C%22value%22%3A%222661618011%22%2C%22ridType%22%3A%22SEARCH_SHORT_ID%22%2C%22type%22%3A%22BROWSE_NODE%22%7D%5D&ref_=pe_125443100_1041846070_AG0901BT_nas"
+                    >
+                        Show now
+                    </mj-button>
+                </mj-column>
+            </mj-section>
+            <mj-include path="./components/divider.mjml" />
+            <!-- College Finds Section -->
+            <mj-section
+                background-color="#fff"
+                border-radius="5px 5px 0 0"
+                padding="16px 14px"
+            >
+                <mj-column>
+                    <mj-text
+                        align="left"
+                        padding="0"
+                        font-size="18px"
+                        font-weight="bold"
+                        >Shop more Off to College finds</mj-text
+                    >
+                </mj-column>
+            </mj-section>
+            <mj-section background-color="#fff" padding="0 14px">
+                <mj-group>
+                    <mj-column vertical-align="middle" padding="0 10px 10px 0">
+                        <mj-image
+                            padding="0"
+                            border-radius="5px"
+                            width="280px"
+                            alt="sneakers"
+                            src="./assets/sneakers.jpg"
+                            href="https://www.amazon.com/b?node=121469857011&ref_=pe_125443100_1041846070_CL1100BT_nas"
+                        />
+                    </mj-column>
+                    <mj-column vertical-align="middle">
+                        <mj-text
+                            font-size="19px"
+                            font-weight="bold"
+                            align="left"
+                            padding="0 0 8px"
+                            >Our Top 100+</mj-text
+                        >
+                        <mj-text
+                            font-size="14px"
+                            align="left"
+                            padding="0 0 16px"
+                            >Discover our campus-ready favorites</mj-text
+                        >
+                        <mj-button
+                            align="left"
+                            color="#000"
+                            background-color="#FFD815"
+                            padding="0"
+                            inner-padding="10px 20px"
+                            border-radius="20px"
+                            href="https://www.amazon.com/b?node=121469857011&ref_=pe_125443100_1041846070_CL1100BT_nas"
+                            >Shop now
+                        </mj-button>
+                    </mj-column>
+                </mj-group>
+            </mj-section>
+            <mj-section background-color="#fff" padding="0 14px">
+                <mj-group>
+                    <mj-column vertical-align="middle" padding="0 10px 10px 0">
+                        <mj-image
+                            padding="0"
+                            border-radius="5px"
+                            width="280px"
+                            alt="women bag"
+                            src="./assets/women-bag.jpg"
+                            href="https://www.amazon.com/b?node=121469839011&ref_=pe_125443100_1041846070_CL1101IMG_nas"
+                        />
+                    </mj-column>
+                    <mj-column vertical-align="middle">
+                        <mj-text
+                            font-size="19px"
+                            font-weight="bold"
+                            align="left"
+                            padding="0 0 8px"
+                            >Customers' Most-Loved</mj-text
+                        >
+                        <mj-text
+                            font-size="14px"
+                            align="left"
+                            padding="0 0 16px"
+                            >4+ start fashion, tech, and more</mj-text
+                        >
+                        <mj-button
+                            align="left"
+                            color="#000"
+                            background-color="#FFD815"
+                            padding="0"
+                            inner-padding="10px 20px"
+                            border-radius="20px"
+                            href="https://www.amazon.com/b?node=121469839011&ref_=pe_125443100_1041846070_CL1101IMG_nas"
+                            >Shop now
+                        </mj-button>
+                    </mj-column>
+                </mj-group>
+            </mj-section>
+            <mj-section
+                background-color="#fff"
+                padding="0 14px 16px 14px"
+                border-radius="0 0 5px 5px"
+            >
+                <mj-group>
+                    <mj-column vertical-align="middle" padding="0 10px 0 0">
+                        <mj-image
+                            padding="0"
+                            border-radius="5px"
+                            width="280px"
+                            alt="mouse"
+                            src="./assets/mouse.jpg"
+                            href="https://www.amazon.com/b?node=121469851011&ref_=pe_125443100_1041846070_CL1102IMG_nas"
+                        />
+                    </mj-column>
+                    <mj-column vertical-align="middle">
+                        <mj-text
+                            font-size="19px"
+                            font-weight="bold"
+                            align="left"
+                            padding="0 0 8px"
+                            >Top deals</mj-text
+                        >
+                        <mj-text
+                            font-size="14px"
+                            align="left"
+                            padding="0 0 16px"
+                            >Save big for Move-In Day and Beyond</mj-text
+                        >
+                        <mj-button
+                            align="left"
+                            color="#000"
+                            background-color="#FFD815"
+                            padding="0"
+                            inner-padding="10px 20px"
+                            border-radius="20px"
+                            href="https://www.amazon.com/b?node=121469851011&ref_=pe_125443100_1041846070_CL1102IMG_nas"
+                            >Shop now
+                        </mj-button>
+                    </mj-column>
+                </mj-group>
+            </mj-section>
         </mj-wrapper>
     </mj-body>
 </mjml>
