@@ -1,0 +1,21 @@
+<mjml>
+    <mj-head>
+        <mj-style> * { box-sizing: border-box; } </mj-style>
+        <mj-style inline="inline"> </mj-style>
+    </mj-head>
+    <mj-body background-color="#fff">
+        <mj-section>
+            <mj-column>
+                <mj-image
+                    align="left"
+                    padding="0"
+                    width="132px"
+                    alt="amazon logo with text"
+                    src="./assets/logo-white.jpg"
+                    href="https://www.amazon.com/"
+                />
+            </mj-column>
+        </mj-section>
+        <mj-wrapper background-color="#DEF555" padding="0"> </mj-wrapper>
+    </mj-body>
+</mjml>
