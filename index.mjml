@@ -545,7 +545,8 @@
                     </mj-column>
                 </mj-group>
             </mj-section>
-            <!-- Footer Section -->
         </mj-wrapper>
+        <!-- Footer Section -->
+        <mj-include path="./components/footer.mjml" />
     </mj-body>
 </mjml>

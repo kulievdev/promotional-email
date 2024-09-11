@@ -1,0 +1,63 @@
+<mj-wrapper background-color="#F1F2F2" padding="0">
+    <mj-section padding="20px 0 28px 14px">
+        <mj-group>
+            <mj-column width="30%">
+                <mj-text font-size="14px" padding="0">
+                    <a
+                        style="color: #2963d0"
+                        href="https://www.amazon.com/gp/cpc/homepage?ref_=pe_125443100_1041846070_LF1201LNK_pe_ob_ftr_comm_prfs"
+                        >Update your preferences
+                    </a>
+                </mj-text>
+            </mj-column>
+            <mj-column width="3%">
+                <mj-text
+                    font-size="14px"
+                    color="#2963D0"
+                    align="left"
+                    padding="0"
+                >
+                    |
+                </mj-text>
+            </mj-column>
+            <mj-column width="30%">
+                <mj-text font-size="14px" padding="0">
+                    <a
+                        style="color: #2963d0"
+                        href="https://www.amazon.com/gp/gss/o/1xryBaPQ7gJL7IDURbJPxQ9joC-j90IlIRRyxae.7DH6dB.BTU1Pghp.2LnSSawzw?ref_=LF1202LNK"
+                        >Unsubscribe
+                    </a>
+                </mj-text>
+            </mj-column>
+        </mj-group>
+    </mj-section>
+    <mj-section padding="0 0 20px 14px">
+        <mj-column>
+            <mj-text
+                font-size="14px"
+                line-height="22px"
+                color="#494D4D"
+                padding="0 0 20px 0"
+            >
+                ©2024 Amazon.com, Inc. or its affiliates. Amazon and all related
+                marks are trademarks of Amazon.com, Inc. or its affiliates,
+                Amazon.com 410 Terry Avenue N., Seattle, WA 98109. Product
+                prices and availability are subject to change. Ref: 1041846070.
+            </mj-text>
+            <mj-text font-size="14px" padding="0 0 20px 0">
+                <a
+                    style="color: #2963d0"
+                    href="https://www.amazon.com/gp/help/customer/display.html?nodeId=GX7NJQ4ZB8MHFRNJ&ref_=pe_125443100_1041846070_LF1203LNK"
+                    >Privacy Policy
+                </a>
+            </mj-text>
+            <mj-image
+                align="left"
+                padding="0"
+                width="76px"
+                alt="dark logo"
+                src="./assets/logo-dark.jpg"
+            />
+        </mj-column>
+    </mj-section>
+</mj-wrapper>
