@@ -1,9 +1,7 @@
 <mjml>
     <mj-head>
         <mj-style> * { box-sizing: border-box; } </mj-style>
-        <mj-style inline="inline">
-            .section-styles { background-color: #fff; border-radius: 5px; }
-        </mj-style>
+        <mj-style inline="inline"> </mj-style>
     </mj-head>
     <mj-body background-color="#fff">
         <!-- Header Logo Section -->
@@ -33,7 +31,11 @@
         </mj-section>
         <mj-wrapper background-color="#DEF555" padding="8px">
             <!-- Header Content Section -->
-            <mj-section css-class="section-styles" padding="16px 8px">
+            <mj-section
+                background-color="#fff"
+                border-radius="5px"
+                padding="16px 14px"
+            >
                 <mj-column>
                     <mj-text
                         padding="0 0 10px"
@@ -57,7 +59,109 @@
                     </mj-button>
                 </mj-column>
             </mj-section>
+            <mj-include path="./components/divider.mjml" />
             <!-- College Essentials Section -->
+            <mj-section
+                background-color="#fff"
+                border-radius="5px 5px 0 0"
+                padding="16px 14px"
+            >
+                <mj-column>
+                    <mj-text
+                        align="left"
+                        padding="0"
+                        font-size="18px"
+                        font-weight="bold"
+                        >Shop college essentials</mj-text
+                    >
+                </mj-column>
+            </mj-section>
+            <mj-section
+                background-color="#fff"
+                border-radius="0 0 5px 5px"
+                padding="0 14px"
+            >
+                <mj-group>
+                    <mj-column>
+                        <mj-image
+                            padding="0"
+                            border-radius="5px"
+                            padding-right="4px"
+                            alt="beauty product"
+                            src="./assets/beauty.jpg"
+                            href="https://www.amazon.com/b?node=121469834011&ref_=pe_125443100_1041846070_CG0600IMG_nas"
+                        />
+                        <mj-text
+                            align="left"
+                            padding="10px 0 20px"
+                            font-size="20px"
+                            font-weight="bold"
+                            >Beauty</mj-text
+                        >
+                    </mj-column>
+                    <mj-column>
+                        <mj-image
+                            padding="0"
+                            border-radius="5px"
+                            padding-left="4px"
+                            alt="bags and backpacks"
+                            src="./assets/bag.jpg"
+                            href="https://www.amazon.com/b?node=121469850011&ref_=pe_125443100_1041846070_CG0601IMG_nas"
+                        />
+                        <mj-text
+                            align="left"
+                            padding="10px 0 20px"
+                            font-size="20px"
+                            font-weight="bold"
+                            >Bags & Backpacks</mj-text
+                        >
+                    </mj-column>
+                </mj-group>
+            </mj-section>
+            <mj-section
+                background-color="#fff"
+                border-radius="0 0 5px 5px"
+                padding="0 14px"
+            >
+                <mj-group>
+                    <mj-column>
+                        <mj-image
+                            padding="0"
+                            border-radius="5px"
+                            padding-right="4px"
+                            alt="dorm product"
+                            src="./assets/dorm.jpg"
+                            href="https://www.amazon.com/b?node=121469840011&ref_=pe_125443100_1041846070_CG0602IMG_nas"
+                        />
+                        <mj-text
+                            align="left"
+                            padding="10px 0 20px"
+                            font-size="20px"
+                            font-weight="bold"
+                            >Dorm Essentials</mj-text
+                        >
+                    </mj-column>
+                    <mj-column>
+                        <mj-image
+                            padding="0"
+                            border-radius="5px"
+                            padding-left="4px"
+                            alt="groceries"
+                            src="./assets/grocery.jpg"
+                            href="https://www.amazon.com/b?node=121469854011&ref_=pe_125443100_1041846070_CG0603IMG_nas"
+                        />
+                        <mj-text
+                            align="left"
+                            padding="10px 0 20px"
+                            font-size="20px"
+                            font-weight="bold"
+                            >Groceries</mj-text
+                        >
+                    </mj-column>
+                </mj-group>
+            </mj-section>
+            <mj-include path="./components/divider.mjml" />
+            <!-- College Deals Section -->
         </mj-wrapper>
     </mj-body>
 </mjml>
