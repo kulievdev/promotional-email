@@ -1,7 +1,7 @@
 <mjml>
     <mj-head>
         <mj-style> * { box-sizing: border-box; } </mj-style>
-        <mj-style inline="inline"> </mj-style>
+        <mj-style inline="inline"></mj-style>
     </mj-head>
     <mj-body background-color="#fff">
         <!-- Header Logo Section -->
@@ -76,10 +76,11 @@
                             href="https://www.amazon.com/b?node=121469834011&ref_=pe_125443100_1041846070_CG0600IMG_nas"
                         />
                         <mj-text
+                            font-size="18px"
                             align="left"
                             padding="10px 0 20px"
-                            font-size="20px"
                             font-weight="bold"
+                            css-class="category-text"
                             >Beauty</mj-text
                         >
                     </mj-column>
@@ -95,10 +96,11 @@
                             href="https://www.amazon.com/b?node=121469850011&ref_=pe_125443100_1041846070_CG0601IMG_nas"
                         />
                         <mj-text
+                            font-size="18px"
                             align="left"
                             padding="10px 0 20px"
-                            font-size="20px"
                             font-weight="bold"
+                            css-class="category-text"
                             >Bags & Backpacks</mj-text
                         >
                     </mj-column>
@@ -119,10 +121,11 @@
                             href="https://www.amazon.com/b?node=121469840011&ref_=pe_125443100_1041846070_CG0602IMG_nas"
                         />
                         <mj-text
+                            font-size="18px"
                             align="left"
                             padding="10px 0 20px"
-                            font-size="20px"
                             font-weight="bold"
+                            css-class="category-text"
                             >Dorm Essentials</mj-text
                         >
                     </mj-column>
@@ -138,10 +141,11 @@
                             href="https://www.amazon.com/b?node=121469854011&ref_=pe_125443100_1041846070_CG0603IMG_nas"
                         />
                         <mj-text
+                            font-size="18px"
                             align="left"
                             padding="10px 0 20px"
-                            font-size="20px"
                             font-weight="bold"
+                            css-class="category-text"
                             >Groceries</mj-text
                         >
                     </mj-column>
