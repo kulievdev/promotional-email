@@ -1,7 +1,9 @@
 <mjml>
     <mj-head>
         <mj-style> * { box-sizing: border-box; } </mj-style>
-        <mj-style inline="inline"> </mj-style>
+        <mj-style inline="inline">
+            .section-styles { background-color: #fff; border-radius: 5px; }
+        </mj-style>
     </mj-head>
     <mj-body background-color="#fff">
         <!-- Header Logo Section -->
@@ -17,20 +19,45 @@
                 />
             </mj-column>
         </mj-section>
-        <mj-wrapper background-color="#DEF555" padding="0">
-            <!-- Header Image Section -->
-            <mj-section padding="0">
+        <!-- Header Image Section -->
+        <mj-section padding="0">
+            <mj-column>
+                <mj-image
+                    align="left"
+                    padding="0"
+                    alt="supplies image"
+                    src="./assets/header.jpg"
+                    href="https://www.amazon.com/b?node=121469851011&ref_=pe_125443100_1041846070_HI0101IMG_nas"
+                />
+            </mj-column>
+        </mj-section>
+        <mj-wrapper background-color="#DEF555" padding="8px">
+            <!-- Header Content Section -->
+            <mj-section css-class="section-styles" padding="16px 8px">
                 <mj-column>
-                    <mj-image
+                    <mj-text
+                        padding="0 0 10px"
+                        font-size="22px"
+                        font-weight="bold"
+                        >Deals on last-minute college needs</mj-text
+                    >
+                    <mj-text padding="0 0 18px" font-size="15px">
+                        Save up to 50% off on study supplies, organization &
+                        more
+                    </mj-text>
+                    <mj-button
                         align="left"
+                        color="#000"
+                        background-color="#FFD815"
                         padding="0"
-                        alt="supplies image"
-                        src="./assets/header.jpg"
-                        href="https://www.amazon.com/b?node=121469851011&ref_=pe_125443100_1041846070_HI0101IMG_nas"
-                    />
+                        inner-padding="10px 20px"
+                        border-radius="20px"
+                        href="https://www.amazon.com/b?node=121469851011&ref_=pe_125443100_1041846070_HC0201BT_nas"
+                        >Shop deals
+                    </mj-button>
                 </mj-column>
             </mj-section>
-            <!-- Header Content Section -->
+            <!-- College Essentials Section -->
         </mj-wrapper>
     </mj-body>
 </mjml>
