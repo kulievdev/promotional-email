@@ -4,7 +4,8 @@
         <mj-style inline="inline"> </mj-style>
     </mj-head>
     <mj-body background-color="#fff">
-        <mj-section>
+        <!-- Header Logo Section -->
+        <mj-section padding="0">
             <mj-column>
                 <mj-image
                     align="left"
@@ -16,6 +17,20 @@
                 />
             </mj-column>
         </mj-section>
-        <mj-wrapper background-color="#DEF555" padding="0"> </mj-wrapper>
+        <mj-wrapper background-color="#DEF555" padding="0">
+            <!-- Header Image Section -->
+            <mj-section padding="0">
+                <mj-column>
+                    <mj-image
+                        align="left"
+                        padding="0"
+                        alt="supplies image"
+                        src="./assets/header.jpg"
+                        href="https://www.amazon.com/b?node=121469851011&ref_=pe_125443100_1041846070_HI0101IMG_nas"
+                    />
+                </mj-column>
+            </mj-section>
+            <!-- Header Content Section -->
+        </mj-wrapper>
     </mj-body>
 </mjml>
